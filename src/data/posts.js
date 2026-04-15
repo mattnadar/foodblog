@@ -1,5 +1,6 @@
 import proteinImg from "../assets/protein.webp";
 import burrito from "../assets/burrito.jpg";
+import veg from "../assets/vegan.jpg";
 
 export const posts = [
   {
@@ -41,5 +42,21 @@ To stay consistent, I focused on meals that are quick to prepare and require min
 Some simple meal ideas include rice with beans and vegetables, microwave-scrambled eggs, or oatmeal with added protein sources like peanut butter. These meals take only a few minutes to prepare but still provide the nutrients needed to stay energized.
 
 The most important thing is having a plan. Keeping a few reliable, easy meals in your routine makes it much easier to stay on track with both your budget and your health goals.`
+  },
+  {
+  id: 4,
+  title: "Affordable High-Protein Foods for Vegetarians and Vegans",
+  image: veg,
+  content: `Eating a high-protein diet as a vegetarian or vegan can seem difficult at first, especially on a budget. A lot of plant-based alternatives are marketed as premium products, which can make it feel expensive to eat this way.
+
+However, there are plenty of affordable plant-based protein sources that are both nutritious and practical for college students.
+
+Some of the most reliable options include lentils, beans, tofu, oats, peanut butter, and rice. These foods are inexpensive, easy to find, and can be used in a wide variety of meals.
+
+One important thing to understand is that some plant-based proteins are incomplete on their own, but combining foods like rice and beans can provide a more complete protein profile.
+
+In my own experience, I’ve also used plant-based protein powders when needed. These can help fill gaps, especially on busy days when it’s harder to prepare full meals.
+
+`
   }
 ];
