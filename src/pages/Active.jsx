@@ -1,4 +1,4 @@
-import guard from "../assets/Guard.jpeg";
+import guard from "../assets/Guard.JPEG";
 
 export default function Active() {
   return (
