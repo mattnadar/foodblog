@@ -7,6 +7,7 @@ export default function Navbar() {
       <div>
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
+        <Link to="/active">Staying Active</Link>
       </div>
     </nav>
   );

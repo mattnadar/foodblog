@@ -1,4 +1,6 @@
 import proteinImg from "../assets/protein.webp";
+import burrito from "../assets/burrito.jpg";
+
 export const posts = [
   {
     id: 1,
@@ -31,7 +33,7 @@ The goal is not perfection, but consistency. Even on a tight budget, it is possi
   {
     id: 3,
     title: "Simple Meals for Busy Students",
-    image: "https://images.unsplash.com/photo-1546069901-eacef0df6022",
+    image: burrito,
     content: `College schedules can be unpredictable, which makes it easy to fall into the habit of skipping meals or relying on fast food. I ran into this problem myself, especially on days packed with classes and workouts.
 
 To stay consistent, I focused on meals that are quick to prepare and require minimal equipment. Microwave-friendly foods like instant rice, frozen vegetables, and pre-cooked proteins can save a lot of time.

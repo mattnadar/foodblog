@@ -3,7 +3,6 @@ body {
   font-family: Arial, sans-serif;
   background: #f5f5f5;
 }
-
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -12,10 +11,23 @@ body {
   color: white;
 }
 
+/* Style links */
 .navbar a {
   color: white;
-  margin-left: 15px;
+  margin-left: 20px;
   text-decoration: none;
+  transition: color 0.2s ease, border-bottom 0.2s ease;
+}
+
+/* Hover effect */
+.navbar a:hover {
+  color: #ffcc70;              /* subtle highlight color */
+  border-bottom: 2px solid #ffcc70;
+}
+
+/* Optional: make active click feel better */
+.navbar a:active {
+  opacity: 0.7;
 }
 
 .container {
